@@ -1,11 +1,41 @@
 <!doctype html>
-<meta name="viewport" content="width=device-width">
-<title>Sam the Sam</title>
+<html>
+<head>
+<title>Nana</title>
 <style>
-html{
-  background-color: blue;
-  color: white;
+h1{
+font-size: 85px;
+font-family:Helvetica;
+margin-top:60px;
 }
 </style>
-<h1>Sam the Sam
-</h1>
+</head>
+<body>
+<nav>
+<a href="http://nanajean14.github.io/Wats-Up/index.html">
+Home</a>|<a href="http://nanajean14.github.io/Wats-Up/about-me.html">About</a>
+</nav>
+<h1> Porfolio</h1>
+<h2> Images</h2>
+<img src="coollogo_com-124703120.jpg">
+<p> Hi,
+<br>
+<br>
+My name is Naquisha Jean-Louis and in this website is my 2015 series i've worked on all year.
+Your comments are welcome.</p>
+
+
+
+<a href="https://www.twitter.com/">
+<img src="https://cdn0.iconfinder.com/data/icons/getsoci-2/128/getsoci5.png">
+</a>
+<a href="https://www.linkedin.com/">
+<img src="https://cdn2.iconfinder.com/data/icons/social-aquiocons/128/Aquicon-Linkedin.png">
+</a>
+<a href="https://www.youtube.com/">
+<img src="https://cdn0.iconfinder.com/data/icons/getsoci-2/128/getsoci9.png">
+</a>
+<a href="https://www.facebook.com/">
+<img src="https://cdn0.iconfinder.com/data/icons/getsoci-2/128/getsoci1.png">
+</a>
+</body>
