@@ -42,7 +42,16 @@ color: #1FCCB2;
 
    section{
     text-align: center;
-    background-image: url(https://unsplash.imgix.net/photo-1416184008836-5486f3e2cf58?q=75&w=1080&h=1080&fit=max&fm=jpg&s=45555ce6a85cc0ce7468598977f1f467);
+    background-image: url(https://unsplash.imgix.net/photo-1417444900330-dc44c79af021?q=75&w=1080&h=1080&fit=max&fm=jpg&s=4722e159b94caccd0e788c143269ff1e);
     height: 400px;
     background-size: cover;
+    }
+    
+    button{
+     color: #FFF;
+     background-color: red;
+     border: none;
+     border-radius: 3px;
+     padding: 5px;
+     margin-top: 40px
     }
