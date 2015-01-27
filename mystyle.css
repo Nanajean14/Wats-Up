@@ -41,5 +41,8 @@ color: #1FCCB2;
 }
 
    section{
- background-image: url(https://unsplash.imgix.net/photo-1416184008836-5486f3e2cf58?q=75&w=1080&h=1080&fit=max&fm=jpg&s=45555ce6a85cc0ce7468598977f1f467);
-}
+    text-align: center;
+    background-image: url(https://unsplash.imgix.net/photo-1416184008836-5486f3e2cf58?q=75&w=1080&h=1080&fit=max&fm=jpg&s=45555ce6a85cc0ce7468598977f1f467);
+    height: 400px;
+    
+   }
