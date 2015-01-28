@@ -55,3 +55,7 @@ color: #1FCCB2;
      padding: 5px;
      margin-top: 40px
     }
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
