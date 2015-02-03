@@ -77,7 +77,7 @@ background {
      margin-top: 40px
     }
 img {
-    opacity: 2.0;
+    opacity: 0;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 footer {
