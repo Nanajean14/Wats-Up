@@ -66,6 +66,10 @@ padding: 20px;
 width: 200px;
 display: inline-block;
 }
+
+p:hover{
+ margin-top: -10px;
+}
 background {
    <img src="/patterns/footer_lodyas.png">
     button{
