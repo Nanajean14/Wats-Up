@@ -64,6 +64,7 @@ font-family: 'Lobster', cursive;
     p {
 background-color: blue;
 font-family: impact, haettenschweiler, "arial narrow bold", sans-seriff;
+margin: 0;
 }
     button{
      color: #FFF;
