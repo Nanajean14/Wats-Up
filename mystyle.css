@@ -49,6 +49,11 @@ font-family: 'Lobster', cursive;
     background-size: cover;
     }
     
+    #features{
+    background-color: blue;
+    height; 200px;
+    }
+    
     button{
      color: #FFF;
      background-color: red;
