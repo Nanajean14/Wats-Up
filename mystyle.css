@@ -63,6 +63,8 @@ background-color: blue;
 font-family: impact, haettenschweiler, "arial narrow bold", sans-seriff;
 margin: 0;
 }
+background {
+   <img src="/patterns/footer_lodyas.png">
     button{
      color: #FFF;
      background-color: red;
