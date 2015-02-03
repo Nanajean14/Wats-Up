@@ -61,10 +61,10 @@ font-family: 'Lobster', cursive;
     p {
 background-color:  	#808080 ;
 font-family: impact, haettenschweiler, "arial narrow bold", sans-seriff;
-margin: 0;
+margin: 15;
 padding: 20px;
 width: 200px;
-dispaly: inline-block;
+display: inline-block;
 }
 background {
    <img src="/patterns/footer_lodyas.png">
@@ -77,7 +77,7 @@ background {
      margin-top: 40px
     }
 img {
-    opacity: 0.4;
+    opacity: 0.1;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 footer {
