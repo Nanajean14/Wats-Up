@@ -61,8 +61,8 @@ font-family: 'Lobster', cursive;
     p {
 background-color:  	#808080 ;
 font-family: impact, haettenschweiler, "arial narrow bold", sans-seriff;
-margin: 20;
-padding: 30px;
+margin: 50;
+padding: 20px;
 width: 200px;
 display: inline-block;
 transition: 1s all;
