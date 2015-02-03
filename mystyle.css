@@ -64,6 +64,7 @@ font-family: impact, haettenschweiler, "arial narrow bold", sans-seriff;
 margin: 0;
 padding: 20px;
 width: 200px;
+dispaly: inline-block;
 }
 background {
    <img src="/patterns/footer_lodyas.png">
