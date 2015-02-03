@@ -68,7 +68,7 @@ display: inline-block;
 }
 
 p:hover{
- margin-top: -10px;
+   transform: rotate(-7deg);
 }
 background {
    <img src="/patterns/footer_lodyas.png">
