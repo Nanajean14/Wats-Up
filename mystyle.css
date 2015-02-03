@@ -78,3 +78,7 @@ img {
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
+footer {
+ <i class="fa fa-copyright"></i>
+}
+}
