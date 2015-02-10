@@ -59,10 +59,10 @@ font-family: 'Lobster', cursive;
     }
     
     #features{
-      background-image: -webkit-linear-gradient(honeydew,lightgreen);
-background-image: -moz-linear-gradient(honeydew,lightgreen);
-background-image: -o-linear-gradient(honeydew,lightgreen);
-background-image: linear-gradient(honeydew,lightgreen);
+      background-image: -webkit-linear-gradient(darkgrey,white);
+background-image: -moz-linear-gradient(darkgrey,white);
+background-image: -o-linear-gradient(darkgrey,white);
+background-image: linear-gradient(darkgrey,white);
 background-attachment: fixed;
     background-color: none ;
     height; 200px;
