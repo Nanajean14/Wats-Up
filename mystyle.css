@@ -72,6 +72,8 @@ background-color: #727272;
 padding: 50px;
 box-sizing: border-box;
 margin: center;
+display: inline-block;
+transition: 1s all;
  
 }
 
