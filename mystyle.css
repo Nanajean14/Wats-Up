@@ -76,16 +76,7 @@ transition: 1s all;
 p:hover{
    transform: rotate(-7deg);
 }
-background {
-   <img src="/patterns/footer_lodyas.png">
-    button{
-     color: #FFF;
-     background-color: red;
-     border: none;
-     border-radius: 3px;
-     padding: 5px;
-     margin-top: 40px
-    }
+
 img {
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
