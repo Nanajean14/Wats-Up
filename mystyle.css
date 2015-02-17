@@ -91,5 +91,11 @@ img {
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 footer {
+  background-color: #000;
+height: 150px;
+text-align: center;
+background-color: #727272;
+padding: 50px;
+box-sizing: border-box;
  <i class="fa fa-copyright"></i>
 }
