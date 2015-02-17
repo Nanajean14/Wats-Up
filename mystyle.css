@@ -100,6 +100,11 @@ box-sizing: border-box;
  
 }
 
+
 .menu-selected{
-  background-color: #36F;
+background-color: #00bcd4;
+}
+table{
+width: 1214px;
+margin: 0 auto;
 }
