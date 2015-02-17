@@ -77,9 +77,6 @@ p:hover{
    transform: rotate(-7deg);
 }
 
-img {
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 footer {
   background-color: #000;
