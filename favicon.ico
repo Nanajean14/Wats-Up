@@ -1,0 +1,8 @@
++<head>
+	+<title>PHP<?php if ($title) echo ": $title";?></title> <title>PHP<?php if ($title) echo ": $title";?></title>
+	+<link rel="stylesheet" href="/style.css"> <link rel="stylesheet" href="/style.css">
+	+ +<link rel="shortcut icon" href="/favicon.ico" />
+	+</head> </head>
+	+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" <body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0"
+	+bgcolor="#ffffff" text="#000000" link="#000099" alink="#0000ff" bgcolor="#ffffff" text="#000000" link="#000099" alink="#0000ff"
+	+
