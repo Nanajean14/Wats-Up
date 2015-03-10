@@ -113,7 +113,22 @@ margin: 0 auto;
    border-top-color: #46bf93;
    background: #46bf93;
    }
-   
+  element {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    outline: medium none;
+    border: medium none;
+    z-index: 999999999;
+    overflow: visible;
+    direction: ltr;
+    left: 0px;
+    right: auto;
+    top: 50px;
+    bottom: auto;
+    width: 42px;
+    height: 168px;
+} 
 	var socMap = {
 		fb: {
 			name: 'Facebook',
