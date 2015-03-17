@@ -2,7 +2,17 @@
 <html>
 
 <head>
-
+<script>
+if(window.top==window){
+ //not inside iframe
+} else {
+    if(parent.parent.someFunction){
+       parent.parent.someFunction();
+    } else {
+       alert("framing is not allowed")
+    }
+}
+</script>
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEA
 AAAAAAAAAAAA8saWAKtdCQCHSQcA8pk6AAcHigAPD/IAAgJzAAgIpgAEBFkA8K1lAMdsCgALC9kA
