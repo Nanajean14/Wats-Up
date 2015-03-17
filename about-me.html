@@ -30,47 +30,6 @@ AA0NDQ0NDQ0NAAAAAAAAAAABAQEBAQEBAQEAAAAAAAAACgoKCgoKCgoKCgAAAAAAAAQEBAQEBAQE
 BAQEAAAAAAAQEBAQEBAQEBAQEBAAAAAACwsLCwsLCwsLCwsLCwAAAAICAgICAgICAgICAgICAAAD
 AwMDAwMDAwMDAwMDAwMADw8PDw8PDw8PDw8PDw8PDwAAAAAAAQAAAAMAAAAHAAAADwAAAB8AAAA/
 AAAA/wAAAH8AAAA/AAAAHwAAAA8AAAAHAAAAAwAAAAEAAAAAAAA=" rel="icon" type="image/x-icon" />
- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
- <style>
-.toggler { width: 500px; height: 200px; position: relative; }
-#button { padding: .5em 1em; text-decoration: none; }
-#effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
-#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
-.ui-effects-transfer { border: 2px dotted gray; }
-</style>
- <script>
-$(function() {
-// run the currently selected effect
-function runEffect() {
-// get effect type from
-var selectedEffect = $( "#effectTypes" ).val();
-// most effect types need no options passed by default
-var options = {};
-// some effects have required parameters
-if ( selectedEffect === "scale" ) {
-options = { percent: 0 };
-} else if ( selectedEffect === "transfer" ) {
-options = { to: "#button", className: "ui-effects-transfer" };
-} else if ( selectedEffect === "size" ) {
-options = { to: { width: 200, height: 60 } };
-}
-// run the effect
-$( "#effect" ).effect( selectedEffect, options, 500, callback );
-};
-// callback function to bring a hidden box back
-function callback() {
-setTimeout(function() {
-$( "#effect" ).removeAttr( "style" ).hide().fadeIn();
-}, 1000 );
-};
-// set effect from select menu value
-$( "#button" ).click(function() {
-runEffect();
-return false;
-});
-});
-</script>
 
 <style>
  p {
@@ -104,10 +63,7 @@ return false;
 <br>
 <p> I'm in class and soon will take a break for 30 minutes.</p>
 </main>
-<div class="toggler">
-<div id="effect" class="ui-widget-content ui-corner-all">
-<h2 class="ui-widget-header ui-corner-all">Gallery</h2>
-<p>One of my series pieces 2014.
+
 <div style="width: 790px; height: 1045px; display: block;" id="lightboxOverlay" class="lightboxOverlay"></div>
 <div style="width: 16px; height: 14px;" class="lb-outerContainer"><div class="lb-container"><img style="display: block; width: 8px; height: 6px;" class="lb-image" src="http://www.lifenews.com/wp-content/uploads/2014/12/blackbaby5.jpg"><div style="display: block;" class="lb-nav"><a style="display: none;" class="lb-prev" href=""></a><a style="display: none;" class="lb-next" href=""></a></div><div style="display: none;" class="lb-loader"><a class="lb-cancel"></a></div></div></div><div style="display: block; width: 16px;" class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span style="display: inline;" class="lb-caption">My caption</span><span style="display: none;" class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div>
 <a href="http://www.lifenews.com/wp-content/uploads/2014/12/blackbaby5.jpg" data-title="baby" data-lightbox="image-1" data-title="My caption">image 1<img  width="500" src="http://www.lifenews.com/wp-content/uploads/2014/12/blackbaby5.jpg">
@@ -115,24 +71,7 @@ return false;
 </p>
 </div>
 </div>
-<select name="effects" id="effectTypes">
-<option value="blind">Blind</option>
-<option value="bounce">Bounce</option>
-<option value="clip">Clip</option>
-<option value="drop">Drop</option>
-<option value="explode">Explode</option>
-<option value="fade">Fade</option>
-<option value="fold">Fold</option>
-<option value="highlight">Highlight</option>
-<option value="puff">Puff</option>
-<option value="pulsate">Pulsate</option>
-<option value="scale">Scale</option>
-<option value="shake">Shake</option>
-<option value="size">Size</option>
-<option value="slide">Slide</option>
-<option value="transfer">Transfer</option>
-</select>
-<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+n>
 
 <footer>
 <div style="position: fixed; margin: 0px; padding: 0px; outline: none; border: none; z-index: 999999999;
