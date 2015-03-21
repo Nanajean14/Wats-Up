@@ -127,7 +127,14 @@ overflow: visible; direction: ltr; left: 0px; right: auto; top: 50px; bottom: au
 </footer>
 <footer>
 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmiuweb&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=465970720158684" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>	
-	
+<script src="midnight.jquery.js"></script>
+<script>
+  // Start midnight
+  $(document).ready(function(){
+    // Change this to the correct selector for your nav.
+    $('nav.fixed').midnight();
+  });
+</script>	
 </footer>
 <script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/lightbox.min.js"></script>
