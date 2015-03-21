@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <link href="http://fonts.googleapis.com/css?family=Lato:400,300italic,400bold" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="assets/css/normalize.css" />
+<link rel="stylesheet" href="assets/css/animate.css" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-21195039-3', 'aerolab.github.io');
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
 <link href="css/lightbox.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="mystyle.css" rel="stylesheet">
+<script src="midnight.jquery.js"></script>
+<script>
+  // Start midnight
+  $(document).ready(function(){
+    // Change this to the correct selector for your nav.
+    $('nav.fixed').midnight();
+  });
+</script>
 <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEA
 AAAAAAAAAAAA8saWAKtdCQCHSQcA8pk6AAcHigAPD/IAAgJzAAgIpgAEBFkA8K1lAMdsCgALC9kA
 8NnAAAwMxwBzPwcA6HoFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -127,14 +149,7 @@ overflow: visible; direction: ltr; left: 0px; right: auto; top: 50px; bottom: au
 </footer>
 <footer>
 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmiuweb&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=465970720158684" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>	
-<script src="midnight.jquery.js"></script>
-<script>
-  // Start midnight
-  $(document).ready(function(){
-    // Change this to the correct selector for your nav.
-    $('nav.fixed').midnight();
-  });
-</script>	
+	
 </footer>
 <script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/lightbox.min.js"></script>
